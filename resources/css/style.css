@@ -133,6 +133,9 @@ h4, h5, h6{
     display: none;
   }
 
+  .picture-break{
+    background-attachment: scroll;
+  }
 }
 
 .jumbotron-overlay{
@@ -213,7 +216,7 @@ h4, h5, h6{
 }
 
 #closeupofcone{
-  background-image: url("../images/wagwanjerkbarjerkconecloseup.jpg");
+  background-image: url("../images/wagwanjerkbarjerkconecloseup.JPG");
 }
 
 
