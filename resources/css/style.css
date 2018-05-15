@@ -1,0 +1,354 @@
+/* Fonts */
+@font-face{
+  font-family: WirewyrmRegular;
+  src: url("../fonts/wirewyrmmedium.woff");
+}
+
+@font-face{
+  font-family: WirewyrmLight;
+  src: url("../fonts/wirewyrmlight.woff");
+}
+
+@font-face{
+  font-family: WirewyrmItalic;
+  src: url("../fonts/wirewyrmitalic.woff");
+}
+
+/* Universal Settings */
+h1, h2, h3{
+  font-family: WireWyrmRegular;
+}
+
+h4, h5, h6{
+  font-family: WireWyrmLight;
+}
+
+/* Templated Sections */
+.center{
+    text-align: center;
+}
+
+.text-section{
+  padding: 0rem 20vw 3rem 20vw;
+}
+
+.list-section{
+  padding: 0rem 5vw 3rem 5vw;
+}
+
+.picture-break{
+  height: 80vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jumbotron{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.full-height{
+    height: 90vh;
+}
+
+.half-height{
+    height: 50vh;
+    background-attachment: scroll;
+}
+
+/* Nav Bar */
+.navbar{
+  border-bottom: 2px solid white;
+  font-family: WireWyrmLight;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-item a{
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgb(52, 58, 64);
+    border-top: 1px solid rgb(52, 58, 64);
+}
+
+.nav-item .active{
+    border-top: 1px solid white;
+}
+
+.nav-item a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+@media only screen and (max-width: 880px){
+  .navbar-brand{
+      font-size: 1.5rem;
+  }
+
+  .nav-item a{
+      font-size: 1rem;
+  }
+}
+
+
+.home .jumbotron{
+    background-image: url("../images/wagwanjerkbarfoundersdesktop.jpeg");
+}
+
+.our-story .jumbotron{
+    background-image: url("../images/wagwanjerkbarsmilingsquad.jpeg");
+}
+
+.our-food .jumbotron{
+  background-image: url("../images/wagwanjerkbarboxcloseup.jpg");
+}
+
+.locations .jumbotron{
+  background-image: url("../images/wagwanjerkbaractionfrombehind.jpeg");
+}
+
+@media only screen and (max-width: 740px){
+   .home .jumbotron{
+    background-image: url("../images/wagwanjerkbarfoundersdesktop.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 50vh;
+  }
+
+  .jumbotron-overlay{
+      background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .video-btn, .home .jumbotron h3{
+    display: none;
+  }
+
+}
+
+.jumbotron-overlay{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin-bottom: 20vh;
+}
+
+@media only screen and (max-width: 440px){
+  .container{
+    margin-bottom: 0;
+  }
+}
+
+
+
+/* Pop-up Video Styles*/
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+.gallery-row{
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-pic{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid white 0.0625rem;
+  height: 50vh;
+}
+
+#boxwithwatermelon{
+  background-image: url("../images/wagwanjerkbarboxwithwatermelon.jpg");
+}
+
+#chickenongrill{
+  background-image: url("../images/wagwanjerkbarchickenongrill.jpg");
+}
+
+#sauceoncone{
+  background-image: url("../images/wagwanjerkbarsauceonconedesktop.jpg");
+}
+
+#closeupofcone{
+  background-image: url("../images/wagwanjerkbarjerkconecloseup.jpg");
+}
+
+
+#line-at-the-market{
+    background-image: url("../images/wagwanjerkbarlineatthemarketdesktop.jpeg");
+}
+
+/* Instagram */
+.insta-gallery{
+  padding: 0rem 0rem 5rem 0rem;
+}
+
+.insta-grid{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  padding: 0;
+}
+
+.insta-row{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vw;
+  overflow: hidden;
+}
+
+.insta-pic{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform .5s;
+  transition: transform .5s;
+
+}
+
+.insta-pic:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.desktop .insta-row{
+    height: 18vw;
+}
+
+.desktop .insta-pic{
+  width: 18vw;
+}
+
+.tablet .insta-row{
+    height: 23vw;
+}
+
+.tablet .insta-pic{
+  width: 23vw;
+}
+
+.mobile .insta-row{
+    height: 31vw;
+}
+
+.mobile .insta-pic{
+  width: 31vw;
+}
+
+@media only screen and (max-width: 576px){
+  .desktop{
+    display: none;
+  }
+
+  .tablet{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .tablet{
+    display: none;
+  }
+
+  .mobile{
+    display: none;
+  }
+}
+
+#insta-1{
+  background-image: url("https://www.instagram.com/p/BipgbJ4B0Y5/media");
+}
+
+#insta-2{
+  background-image: url("https://www.instagram.com/p/BcR9wMPFiwF/media");
+}
+
+#insta-3{
+  background-image: url("https://www.instagram.com/p/BbC9ivTl5f7/media");
+}
+
+#insta-4{
+  background-image: url("https://www.instagram.com/p/BbKqKKSFJN-/media");
+}
+
+#insta-5{
+  background-image: url("https://www.instagram.com/p/Ba9xWQMl42e/media");
+}
+
+#insta-6{
+  background-image: url("https://www.instagram.com/p/BXRGAcrlTTd/media");
+}
+
+#insta-7{
+  background-image: url("https://www.instagram.com/p/BawTxhnFWFT/media");
+}
+
+#insta-8{
+  background-image: url("https://www.instagram.com/p/BVsFOOsl2Gc/media");
+}
+
+#insta-9{
+  background-image: url("https://www.instagram.com/p/BVn9Ps3F4di/media");
+}
+
+#insta-10{
+  background-image: url("https://www.instagram.com/p/BXgfT2sl3c8/media");
+}
+
+.footer{
+
+}

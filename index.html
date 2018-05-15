@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <!-- This website was designed and built by Fresh Co Web Development. Email ryan.heide@icloud.com for website consulting inquiries.-->
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Wagwan Jerk Bar</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+  </head>
+
+  <body class="home">
+
+    <!--<div class="alert alert-success alert-dismissible fade show my-0" role="alert">
+      Next pop-up: Saturday June 9th at the <a href="#">Waltham Farmers Market</a> from 9:30am to 2pm
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>-->
+
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark wagwan-nav">
+        <a class="navbar-brand ml-2 mr-0" href="./index.html">Wagwan Jerk Bar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="./ourfood.html">MENU</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="./ourstory.html">ABOUT</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="./schedule.html">LOCATIONS</a>
+            </li>
+           <!--<li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#">CATERING</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#">BOOK US</a>
+            </li>-->
+          </ul>
+          <!--<span class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">See our Instagram</button>
+          </span>-->
+        </div>
+
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid full-height">
+        <div class="jumbotron-overlay ">
+          <div class="container">
+            <h1 class="welcomeline">Jamaican Inspired, American Made</h1>
+            <h2 class="welcomeline">Jerk Chicken & Pork with New England Inspired Vegetables</h2>
+            <h3 class="welcomeline">See Us in Action:</h3>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/LJm1ERI6YTA" data-target="#myModal">
+              Watch the Video
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="list-section text-light bg-dark center">
+        <br><h1>We're a Food Truck</h1>
+        <h2>(without the truck)</h2>
+        <h4>Find us at markets around Boston</h4>
+        <h4>Upcoming pop-ups:</h4><br>
+        <ul>
+          <li>Saturday June 9th: <br class="mobile"><a href="#"> Waltham Farmers Market </a><br class="mobile"> in Waltham - 9:30am to 2pm</l1><br class="mobile"><br class="mobile">
+          <li>Wednesday June 13th: <br class="mobile"><a href="#">Oak Sqaure Farmers Market</a><br class="mobile"> in Brighton - 4pm to 7:30pm </l1><br class="mobile"><br class="mobile">
+          <li>Saturday June 16th: <br class="mobile"><a href="#">Powissett Farms Beer Garden</a><br class="mobile"> in Dover - 12pm to 8pm </l1><br class="mobile"><br class="mobile">
+          <li>Wednesday June 20th: <br class="mobile"><a href="#">Oak Sqaure Farmers Market </a><br class="mobile">in Brighton - 4pm to 7:30pm </l1><br class="mobile"><br class="mobile">
+          <li>Saturday June 23rd: <br class="mobile"><a href="#">Waltham Farmers Market</a><br class="mobile"> in Waltham - 9:30am to 2pm </l1><br class="mobile"><br class="mobile">
+          <li>Wednesday June 27th: <br class="mobile"><a href="#">Oak Sqaure Farmers Market </a><br class="mobile">in Brighton - 4pm to 7:30pm </l1><br class="mobile"><br class="mobile">
+          <li>More to come...</li>
+        </ul>
+      </div>
+
+      <div class="row gallery-row">
+        <div class="col-md-5 gallery-pic" id="closeupofcone"></div>
+        <div class="col-md-7 gallery-pic" id="chickenongrill"></div>
+      </div>
+      <div class="row gallery-row">
+        <div class="col-md-7 gallery-pic" id="sauceoncone"></div>
+        <div class="col-md-5 gallery-pic" id="boxwithwatermelon"></div>
+      </div>
+
+      <div class="text-section text-light bg-dark center">
+        <br><h1>OUR FOOD</h1>
+        <h4> A modern take on Caribbean barbeque, inspired by the islands, sourced and served in New England.</h4>
+        <p>
+           We grill, smoke, and cook up classic jerk favorites with our own modern American twist, pair them with New England inspired vegetables - sourced locally and organically whenever possible - and serve it up quickly with a touch of flare.
+        </p>
+        <a href="./ourfood.html">
+          <button type="button" class="btn btn-outline-light">Menu</button>
+        </a>
+      </div>
+
+      <div class="picture-break" id="line-at-the-market">
+      </div>
+
+   <div class="container-fluid text-white bg-dark insta-gallery center">
+     <br><h1>#ChickenSZN</h1>
+     <h4>Follow us on <a href="https://www.instagram.com/wagwanjerkbar/">Instagram</a></h4>
+
+       <div class="insta-grid desktop">
+         <div class="insta-row">
+            <div class="insta-pic" id="insta-1"></div>
+           <div class="insta-pic" id="insta-2"></div>
+           <div class="insta-pic" id="insta-3"></div>
+           <div class="insta-pic" id="insta-4"></div>
+           <div class="insta-pic" id="insta-5"></div>
+         </div>
+         <div class="insta-row">
+           <div class="insta-pic" id="insta-6"></div>
+           <div class="insta-pic" id="insta-7"></div>
+           <div class="insta-pic" id="insta-8"></div>
+           <div class="insta-pic" id="insta-9"></div>
+           <div class="insta-pic" id="insta-10"></div>
+         </div>
+       </div>
+
+<!--     <div class="insta-grid desktop">
+       <div class="insta-row">
+         <div class="insta-pic" id="insta-1">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+         <div class="insta-pic" id="insta-2">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+         <div class="insta-pic" id="insta-3">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+         <div class="insta-pic" id="insta-4">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+         <div class="insta-pic" id="insta-5">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+       </div>
+       <div class="insta-row">
+         <div class="insta-pic" id="insta-6">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+         <div class="insta-pic" id="insta-7">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+         <div class="insta-pic" id="insta-8">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+         <div class="insta-pic" id="insta-9">
+           <a href="#"><img src="" alt=""> </a>
+         </div>
+         <div class="insta-pic" id="insta-10">
+         </div>
+       </div>
+     </div>-->
+
+
+       <div class="insta-grid tablet">
+         <div class="insta-row">
+           <div class="insta-pic" id="insta-1"></div>
+           <div class="insta-pic" id="insta-2"></div>
+           <div class="insta-pic" id="insta-3"></div>
+           <div class="insta-pic" id="insta-4"></div>
+         </div>
+         <div class="insta-row">
+           <div class="insta-pic" id="insta-5"></div>
+           <div class="insta-pic" id="insta-6"></div>
+           <div class="insta-pic" id="insta-7"></div>
+           <div class="insta-pic" id="insta-8"></div>
+         </div>
+       </div>
+
+       <div class="insta-grid mobile">
+         <div class="insta-row">
+           <div class="insta-pic" id="insta-1"></div>
+           <div class="insta-pic" id="insta-2"></div>
+           <div class="insta-pic" id="insta-3"></div>
+         </div>
+         <div class="insta-row">
+           <div class="insta-pic" id="insta-4"></div>
+           <div class="insta-pic" id="insta-5"></div>
+           <div class="insta-pic" id="insta-6"></div>
+         </div>
+         <div class="insta-row">
+           <div class="insta-pic" id="insta-7"></div>
+           <div class="insta-pic" id="insta-8"></div>
+           <div class="insta-pic" id="insta-9"></div>
+         </div>
+       </div>
+
+     </div>
+
+
+
+
+
+
+
+     <!--Footer-->
+  <footer class="page-footer font-small indigo pt-0 bg-dark text-white">
+
+     <!--Footer Links-->
+     <div class="container">
+
+         <!--First row-->
+         <div class="row">
+
+             <!--First column-->
+             <div class="col-md-12 py-5">
+
+                 <div class="mb-1 flex-center">
+
+                     <!--Facebook-->
+                     <a class="fb-ic" href="https://www.facebook.com/wagwanjerkbar">
+                         <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                     </a>
+                     <!--Twitter-->
+                     <a class="tw-ic" href="https://www.twitter.com/wagwanjerkbar">
+                         <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                     </a>
+                     <!--Instagram-->
+                     <a class="ins-ic" href="https://www.instagram.com/wagwanjerkbar">
+                         <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                     </a>
+                 </div>
+             </div>
+             <!--/First column-->
+         </div>
+         <!--/First row-->
+     </div>
+     <!--/Footer Links-->
+
+     <!--Copyright-->
+     <div class="footer-copyright py-3 text-center">
+         © 2018 Copyright: Wagwan Jerk Bar
+     </div>
+     <!--/Copyright-->
+
+  </footer>
+  <!--/Footer-->
+
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="./resources/js/main.js"></script>
+
+  </body>
+</html>
