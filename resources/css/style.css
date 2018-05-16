@@ -32,6 +32,10 @@ h4, h5, h6{
   padding: 0rem 20vw 3rem 20vw;
 }
 
+.text-section-no-margin{
+  padding: 1rem 20vw 1rem 20vw;
+}
+
 .list-section{
   padding: 0rem 5vw 3rem 5vw;
 }
@@ -42,7 +46,7 @@ h4, h5, h6{
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /*background-position: center;*/
 }
 
 .jumbotron{
@@ -139,6 +143,8 @@ h4, h5, h6{
   .picture-break{
     background-attachment: scroll;
   }
+
+
 }
 
 .jumbotron-overlay{
@@ -241,6 +247,8 @@ h4, h5, h6{
 
 #line-from-the-side{
   background-image: url("../images/wagwanjerkbarlinefromtheside.jpeg");
+  background-position: right;
+
 }
 
 /* Instagram */
@@ -370,6 +378,62 @@ h4, h5, h6{
 #insta-10{
   background-image: url("https://www.instagram.com/p/BXgfT2sl3c8/media");
 }
+
+#insta-2-drinks{
+  background-image: url("https://www.instagram.com/p/BZO-3jKlX20/media");
+}
+
+#insta-shawn-sauceing-cone{
+  background-image: url("https://www.instagram.com/p/BXLYEmFF02x/media");
+}
+
+#insta-nice-cone-closeup{
+  background-image: url("https://www.instagram.com/p/BhzdZLHh5kN/media");
+}
+
+#insta-cone-with-smiling-background{
+  background-image: url("https://www.instagram.com/p/BZCMZHwFlci/media");
+}
+
+#insta-man-with-box{
+  background-image: url("https://www.instagram.com/p/BVc9UxDFyRY/media");
+}
+
+#insta-good-box{
+  background-image: url("https://www.instagram.com/p/BYlRQTvFJE_/media");
+}
+
+#insta-woman-with-box{
+  background-image: url("https://www.instagram.com/p/BVn8-_FlMeC/media");
+}
+
+
+
+
+
+
+.three-pic-gallery{
+  padding: 0;
+  margin: 0;
+}
+
+.three-pic-row{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vw;
+  overflow: hidden;
+  height: 31vw;
+  margin: 0;
+}
+
+.three-pic-pic{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 31vw;
+}
+
+
 
 .footer{
 
