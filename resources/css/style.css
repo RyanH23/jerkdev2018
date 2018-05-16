@@ -168,14 +168,19 @@ h4, h5, h6{
   margin-bottom: 20vh;
 }
 
-@media only screen and (max-width: 440px){
+@media only screen and (max-width: 765px){
   .home .container{
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 
   .text-section{
     padding: 0rem 10vw 3rem 10vw;
   }
+
+  .text-section-no-margin{
+    padding: 0rem 10vw 1rem 10vw;
+  }
+
 }
 
 
