@@ -117,11 +117,14 @@ h4, h5, h6{
 }
 
 @media only screen and (max-width: 740px){
-   .home .jumbotron{
-    background-image: url("../images/wagwanjerkbarfoundersdesktop.jpeg");
+  .jumbotron{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+  }
+
+   .home .jumbotron{
+    background-image: url("../images/wagwanjerkbarfoundersdesktop.jpeg");
     height: 70vh;
   }
 
@@ -226,6 +229,18 @@ h4, h5, h6{
 
 #line-at-the-market{
     background-image: url("../images/wagwanjerkbarlineatthemarketdesktop.jpeg");
+}
+
+#butcher-block{
+  background-image: url("../images/wagwanjerkbarbutcherblock.jpeg");
+}
+
+#action-from-behind{
+  background-image: url("../images/wagwanjerkbaractionfrombehind.jpeg");
+}
+
+#line-from-the-side{
+  background-image: url("../images/wagwanjerkbarlinefromtheside.jpeg");
 }
 
 /* Instagram */
